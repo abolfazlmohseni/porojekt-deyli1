@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-ExtraLight.ttf)format(ttf);
+}
+body {
+    width: 100%;
+    height: 2436px;
+    margin: 0;
+    padding: 0;
+    margin: auto auto;
+}
+.conteyner-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.secshen-1{
+    background-color: #3A41EE;
+    padding-bottom:5rem ;
+}
+.qlak {
+    font-family: 'Montserrat';
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 18px;
+}
+.icon  svg{
+    width: 85px;
+}
+.text-velcom {
+    font-size: 26px;
+    width: 15rem;
+    margin-left: 1.2rem;
+    margin-top: 1.3rem;
+    color: #fff;
+}
+
+.login-register{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+}
+.login{
+    margin-left: 45px;
+    background-color: #000;
+    width: 35%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    box-shadow: -8px 5px 8px rgba(0, 0, 0,0.20);
+}
+.register{
+    margin-right: 45px;
+    width: 35%;
+    background-color: #fff;
+    color: #3A41EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: -8px 5px 8px rgba(0, 0, 0,0.20);
+}
+.login , .register p {
+    font-size: 20px;
+}
+.text-login {
+    text-align: center;
+    font-size: 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left:10%;
+}
+label {
+    margin-top: 15px;
+    color: #111111d3;
+    font-size: 14px;
+}
+input {
+    width: 80%;
+    margin-top: 5px;
+    height: 22px;
+    color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00000069;
+    color: #000000b3;
+}
+.submit-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    background-color: #3A41EE;
+    color: #fff;
+    height: 42px;
+    width: 75%;
+    border-radius:20px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 5.5rem;
+    margin-top: 25px;
+}
+.text-acconunt {
+    text-align: center;
+    color: #232323;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.text-acconunt a {
+    color: #232323;
+}
+.text-or {
+    text-align: center;
+    color: #232323;
+    font-size: 17px;
+}
+.secshen-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1 {
+    background-color: #507CC0;
+    width: 78%;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-2 {
+    background-color: #64CCF1;
+    width: 77%;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-2 a{
+    color: #fff;
+    text-decoration: none;
+}
